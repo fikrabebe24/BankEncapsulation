@@ -12,7 +12,7 @@
 
             account.Deposit(amountOfDeposit);
 
-            Console.WriteLine($"Your balance is now {account.GetBalance}.");
+            Console.WriteLine($"Your balance is now {account.GetBalance(amountOfDeposit)}.");
         }
     }
 }
